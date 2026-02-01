@@ -1,0 +1,14 @@
+# GHOSTTY CONFIG
+#theme = dark:Catppuccin Frappe,light:Catppuccin Latte
+confirm-close-surface = false
+window-inherit-working-directory = true
+window-padding-balance = true
+window-padding-x = 10,10
+window-padding-y = 5,10
+window-height = 42
+window-width = 134
+keybind = shift+enter=text:\x1b\r
+#font-family = "SFProMono Nerd Font"
+
+clipboard-read = allow
+clipboard-write = allow
