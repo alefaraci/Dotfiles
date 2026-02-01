@@ -1,0 +1,64 @@
+# Formulae
+brew "eza"
+brew "fastfetch"
+brew "ffmpeg"
+brew "fish"
+brew "gemini-cli"
+brew "mactop"
+brew "neovim"
+brew "tectonic"
+brew "wget"
+brew "fzf"
+brew "go"
+brew "hugo"
+brew "python@3.14"
+brew "ruff"
+brew "uv"
+brew "container"
+brew "mas"
+brew "stow"
+
+# Casks
+cask "affinity"
+cask "bibdesk"
+cask "brave-browser"
+cask "claude"
+cask "claude-code"
+cask "find-any-file"
+cask "ghostty"
+cask "github"
+cask "hammerspoon"
+cask "iina"
+cask "karabiner-elements"
+cask "latest"
+cask "mactex"
+cask "markedit"
+cask "onyx"
+cask "openemu"
+cask "rectangle-pro"
+cask "sf-symbols"
+cask "skim"
+cask "texifier"
+cask "homebrew/cask/transmission"
+cask "zed"
+cask "syncthing-app"
+
+# Mac App Store
+mas "Actions", id: 1586435171
+mas "Amphetamine", id: 937984704
+mas "Anycode", id: 1602100698
+mas "Color Picker", id: 1545870783
+mas "Developer", id: 640199958
+mas "Finer", id: 6738301953
+mas "Focus for YouTube", id: 1514703160
+mas "Ghostery Privacy Ad Blocker", id: 6504861501
+mas "Keynote", id: 361285480
+mas "Numbers", id: 361304891
+mas "Pages", id: 361309726
+mas "Supernote Partner", id: 1494992020
+mas "Surfshark", id: 1437809329
+mas "Telegram", id: 747648890
+mas "uBlock Origin Lite", id: 6745342698
+mas "Unwatched", id: 6477287463
+mas "WhatsApp", id: 310633997
+mas "Xcode", id: 497799835
