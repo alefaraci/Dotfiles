@@ -14,13 +14,6 @@ abbr -a venv "source ./.venv/bin/activate.fish"
 
 if status is-interactive
 	# Commands to run in interactive sessions can go here
-    # set -l host_clean (string replace -r "\-.*" "" $hostname)
-	# clear
-	# fastfetch
-	# echo ""
-	# /usr/local/bin/figurine -f "3d.flf" $host_clean
-	# echo ""
-	# echo ""
 end
 
-export PATH="$HOME/.local/bin:$PATH"
+# export PATH="$HOME/.local/bin:$PATH"

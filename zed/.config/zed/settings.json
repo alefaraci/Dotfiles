@@ -7,6 +7,8 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "show_edit_predictions": false,
+  "buffer_line_height": "standard",
   "edit_predictions": {
     "mode": "subtle"
   },
@@ -29,7 +31,7 @@
     "dark": "Zed (Default)"
   },
   "ui_font_size": 16,
-  "buffer_font_size": 15,
+  "buffer_font_size": 14.0,
   "theme": {
     "mode": "light",
     "light": "One Dark",
