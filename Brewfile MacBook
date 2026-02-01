@@ -11,13 +11,12 @@ brew "mactop"
 brew "neovim"
 brew "python@3.14"
 brew "ruff"
-brew "syncthing"
 brew "tectonic"
 brew "uv"
 brew "wget"
 brew "container"
-brew "mas" 
-brew "stow" 
+brew "mas"
+brew "stow"
 
 # Casks
 cask "ableton-live-lite"
@@ -47,6 +46,7 @@ cask "tailscale-app"
 cask "texifier"
 cask "homebrew/cask/transmission"
 cask "zed"
+cask "syncthing-app"
 
 # Mac App Store
 mas "Actions", id: 1586435171
