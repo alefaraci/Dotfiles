@@ -8,7 +8,7 @@ window-padding-y = 5,10
 window-height = 42
 window-width = 134
 keybind = shift+enter=text:\x1b\r
-#font-family = "SFProMono Nerd Font"
+term = xterm-256color
 
 clipboard-read = allow
 clipboard-write = allow
