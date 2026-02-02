@@ -1,19 +1,21 @@
+# Common to iMac and MacBook
+
 # Formulae
 brew "eza"
 brew "fastfetch"
 brew "ffmpeg"
 brew "fish"
-brew "gemini-cli"
-brew "mactop"
-brew "neovim"
-brew "tectonic"
-brew "wget"
 brew "fzf"
+brew "gemini-cli"
 brew "go"
 brew "hugo"
+brew "mactop"
+brew "neovim"
 brew "python@3.14"
 brew "ruff"
+brew "tectonic"
 brew "uv"
+brew "wget"
 brew "container"
 brew "mas"
 brew "stow"
@@ -36,7 +38,6 @@ cask "latest"
 cask "mactex"
 cask "markedit"
 cask "onyx"
-cask "openemu"
 cask "rectangle-pro"
 cask "sf-symbols"
 cask "skim"
@@ -64,3 +65,17 @@ mas "uBlock Origin Lite", id: 6745342698
 mas "Unwatched", id: 6477287463
 mas "WhatsApp", id: 310633997
 mas "Xcode", id: 497799835
+
+# Get hostname
+hostname = `hostname -s`.strip
+
+# Additional packages
+case hostname
+when "iMac"
+  cask "openemu"
+when "MacBook"
+  cask "keyboardcleantool"
+  cask "coconutbattery"
+  cask "tailscale-app"
+  mas "AdGuard Mini", id: 1440147259
+end
