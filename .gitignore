@@ -1,2 +1,4 @@
 .DS_Store
-*.mdb
+
+zed/.config/zed/prompts
+zed/.config/zed/conversations
