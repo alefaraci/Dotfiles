@@ -6,38 +6,121 @@
 // To see all of Zed's default settings without changing your
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
+//
 {
-  "show_edit_predictions": false,
-  "buffer_line_height": "standard",
-  "edit_predictions": {
-    "mode": "subtle"
-  },
-  "cursor_shape": "bar",
-  "ssh_connections": [
-    {
-      "host": "meso",
-      "args": [],
-      "projects": []
-    }
-  ],
+  // Privacy
+
   "telemetry": {
     "diagnostics": false,
-    "metrics": false
+    "metrics": false,
   },
+
+  // Vim Mode
+
   "vim_mode": true,
-  "icon_theme": {
-    "mode": "dark",
-    "light": "Zed (Default)",
-    "dark": "Zed (Default)"
+  "vim": {
+    "cursor_shape": {
+      "normal": "block",
+      "insert": "bar",
+      "replace": "hollow",
+      "visual": "underline",
+    },
+    "use_system_clipboard": "always",
   },
-  "ui_font_size": 16,
-  "buffer_font_size": 14.0,
-  "theme": {
-    "mode": "light",
-    "light": "One Dark",
-    "dark": "Ayu Dark"
+
+  // Editor Appearance
+  "ui_font_family": "SF Pro",
+  "ui_font_size": 13,
+  "buffer_font_size": 13,
+  "buffer_line_height": { "custom": 1.3 },
+  "cursor_shape": "bar",
+  "indent_guides": { "enabled": true, "coloring": "indent_aware" },
+  "scrollbar": {
+    "show": "auto",
+    "cursors": true,
+    "git_diff": true,
+    "search_results": true,
+    "selected_text": true,
+    "selected_symbol": true,
+    "diagnostics": "all",
+    "axes": {
+      "horizontal": false,
+      "vertical": false,
+    },
   },
+
+  // Edit Predictions (AI Completions)
+  "show_edit_predictions": false,
+  "edit_predictions": { "mode": "subtle" },
+
+  // Project Panel & Tabs
+  "project_panel": {
+    "folder_icons": true,
+    "entry_spacing": "standard",
+  },
+  "tabs": {
+    "git_status": true,
+    "close_position": "left",
+  },
+  "file_scan_exclusions": [
+    "**/.git",
+    "**/.DS_Store",
+    "**/.gitattributes",
+    "**/.python-version",
+    "**/.venv",
+    "**/__pycache__",
+    "**/.ruff_cache",
+    "**/.ropeproject",
+    "**/.pytest_cache",
+    "**/.hypothesis",
+    "**/*.lock",
+  ],
+
+  // Git
+  "git": {
+    "inline_blame": {
+      "enabled": false,
+      "delay_ms": 5000,
+    },
+  },
+
+  // Terminal
   "terminal": {
-    "font_family": "JetBrainsMono Nerd Font"
-  }
+    // "font_family": "SFMono Nerd Font",
+    "font_size": 13,
+    "line_height": "standard",
+    "blinking": "on",
+    "dock": "bottom",
+    "toolbar": { "breadcrumbs": false },
+  },
+
+  // LSP & Language Settings
+  "lsp_document_colors": "background",
+  "languages": {
+    "Python": {
+      "language_servers": ["ruff", "basedpyright", "pyright"],
+      "format_on_save": "on",
+      "formatter": [
+        // {
+        //   "code_actions": {
+        //     "source.organizeImports.ruff": true,
+        //     "source.fixAll.ruff": true
+        //   }
+        // },
+        { "language_server": { "name": "ruff" } },
+      ],
+      "show_edit_predictions": true,
+    },
+    "JSON": {
+      "soft_wrap": "editor_width",
+    },
+  },
+  "lsp": {
+    "basedpyright": {
+      "settings": {
+        "python": { "pythonPath": ".venv/bin/python" },
+        "basedpyright.analysis": { "diagnosticMode": "workspace" },
+      },
+    },
+  },
 }

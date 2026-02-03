@@ -1,0 +1,39 @@
+[
+  {
+    "label": "Run Python",
+    "cwd": "$ZED_DIRNAME",
+    "command": "python3 $ZED_FILE",
+    "env": {
+      "EVOTORCH_VERBOSE_LEVEL": "0",
+      "PYTORCH_ENABLE_MPS_FALLBACK": "1",
+    },
+    "use_new_terminal": false,
+    "allow_concurrent_runs": true,
+    "reveal": "always",
+    "show_command": false,
+  },
+  {
+    "label": "execute python selection",
+    "command": "python3",
+    "args": ["-c", "${ZED_SELECTED_TEXT}"],
+    "env": {},
+    "use_new_terminal": false,
+    "allow_concurrent_runs": true,
+    "reveal": "always",
+    "show_command": false,
+  },
+  {
+    "label": "Forward Search",
+    "command": "/Applications/Skim.app/Contents/SharedSupport/displayline",
+    "args": [
+      "-r",
+      "-z",
+      "-b",
+      "$ZED_ROW",
+      "/Volumes/Rugged\\ SSD/PhD/LaTeX/Phd-Thesis/Main.pdf",
+      "$ZED_DIRNAME/$ZED_STEM.tex",
+    ],
+    "allow_concurrent_runs": false,
+    "reveal": "never",
+  },
+]
