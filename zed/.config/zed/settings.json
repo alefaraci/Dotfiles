@@ -9,14 +9,12 @@
 //
 {
   // Privacy
-
   "telemetry": {
     "diagnostics": false,
     "metrics": false,
   },
 
   // Vim Mode
-
   "vim_mode": true,
   "vim": {
     "cursor_shape": {
@@ -122,5 +120,19 @@
         "basedpyright.analysis": { "diagnosticMode": "workspace" },
       },
     },
+  },
+
+  // Extensions
+  "auto_install_extensions": {
+    "html": true,
+    "toml": true,
+    "lua": true,
+    "swift": true,
+    "make": true,
+    "svelte": true,
+    "astro": true,
+    "dockerfile": true,
+    "git-firefly": true,
+    "rainbow-csv": true,
   },
 }
