@@ -1,3 +1,6 @@
+# Initialize Homebrew
+eval (/opt/homebrew/bin/brew shellenv)
+
 # Set the default editor to zed
 set -gx EDITOR zed
 
@@ -15,5 +18,3 @@ abbr -a venv "source ./.venv/bin/activate.fish"
 if status is-interactive
 	# Commands to run in interactive sessions can go here
 end
-
-# export PATH="$HOME/.local/bin:$PATH"

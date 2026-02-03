@@ -19,6 +19,7 @@ brew "wget"
 brew "container"
 brew "mas"
 brew "stow"
+brew "texlab"
 
 # Casks
 cask "affinity"
@@ -47,8 +48,6 @@ cask "zed"
 cask "syncthing-app"
 
 # Fonts
-tap "shaunsingh/SFMono-Nerd-Font-Ligaturized"
-cask "font-sf-mono-nerd-font-ligaturized"
 cask "font-jetbrains-mono-nerd-font"
 cask "font-mona-sans"
 cask "font-hubot-sans"

@@ -13,7 +13,7 @@
     "show_command": false,
   },
   {
-    "label": "execute python selection",
+    "label": "Execute Python Selection",
     "command": "python3",
     "args": ["-c", "${ZED_SELECTED_TEXT}"],
     "env": {},
@@ -27,11 +27,11 @@
     "command": "/Applications/Skim.app/Contents/SharedSupport/displayline",
     "args": [
       "-r",
-      "-z",
+      "-g",
       "-b",
       "$ZED_ROW",
-      "/Volumes/Rugged\\ SSD/PhD/LaTeX/Phd-Thesis/Main.pdf",
-      "$ZED_DIRNAME/$ZED_STEM.tex",
+      "$ZED_WORKTREE_ROOT/Main.pdf",
+      "$ZED_FILE",
     ],
     "allow_concurrent_runs": false,
     "reveal": "never",

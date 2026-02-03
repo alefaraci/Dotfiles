@@ -9,6 +9,7 @@
 //
 {
   // Privacy
+  "theme": "One Dark",
   "telemetry": {
     "diagnostics": false,
     "metrics": false,
@@ -46,6 +47,16 @@
       "vertical": false,
     },
   },
+  "minimap": {
+    "max_width_columns": 90,
+    "current_line_highlight": "line",
+    "thumb": "always",
+    "show": "always",
+  },
+  "experimental.theme_overrides": {
+    "scrollbar.thumb.background": "#9ca6b512",
+    "scrollbar.track.background": "#232427",
+  },
 
   // Edit Predictions (AI Completions)
   "show_edit_predictions": false,
@@ -72,6 +83,31 @@
     "**/.pytest_cache",
     "**/.hypothesis",
     "**/*.lock",
+    // LaTeX files
+    "**/*.toc",
+    "**/*.gz",
+    "**/*.out",
+    "**/*.lot",
+    "**/*.lof",
+    "**/*.glo",
+    "**/*.fls",
+    "**/*.acn",
+    "**/*.aux",
+    "**/*.bbl",
+    "**/*.blg",
+    "**/*.fdb_latexmk",
+    "**/*.ist",
+    "**/*.nlo",
+    "**/*.glsdefs",
+    "**/*.nls",
+    "**/*.synctex.gz",
+    "**/*.ilg",
+    "**/*.nav",
+    "**/*.acr",
+    "**/*.alg",
+    "**/._*",
+    "**/*.gls",
+    "**/*.glg",
   ],
 
   // Git
@@ -84,7 +120,8 @@
 
   // Terminal
   "terminal": {
-    // "font_family": "SFMono Nerd Font",
+    "font_family": "JetBrainsMono Nerd Font",
+    "font_weight": 300,
     "font_size": 13,
     "line_height": "standard",
     "blinking": "on",
@@ -112,12 +149,62 @@
     "JSON": {
       "soft_wrap": "editor_width",
     },
+    "LaTeX": {
+      "soft_wrap": "editor_width",
+    },
   },
   "lsp": {
     "basedpyright": {
       "settings": {
         "python": { "pythonPath": ".venv/bin/python" },
         "basedpyright.analysis": { "diagnosticMode": "workspace" },
+      },
+    },
+    "ltex": {
+      "settings": {
+        "ltex": {
+          "language": "en-US",
+        },
+      },
+    },
+    "texlab": {
+      "settings": {
+        "texlab": {
+          "latexindent": { "modifyLineBreaks": true },
+          "build": {
+            "onSave": false,
+            "forwardSearchAfter": false,
+          },
+          "forwardSearch": {
+            "executable": "/Applications/Skim.app/Contents/SharedSupport/displayline",
+            "args": ["-r", "%l", "%p", "%f"],
+          },
+          "diagnostics": {
+            "ignoredPatterns": [
+              "Overfull \\\\hbox",
+              "Overfull \\\\vbox",
+              "Package hyperref Warning: Suppressing link with empty target",
+              "Underfull \\\\hbox",
+              "Float too large for page by",
+              "Float specifier changed to ht",
+              "Unused label",
+            ],
+          },
+          "chktex": {
+            "onOpenAndSave": true,
+            "onEdit": true,
+            "additionalArgs": [
+              "-n30",
+              "-n24",
+              "-n12",
+              "-n1",
+              "-n35",
+              "-n3",
+              "-n8",
+              "-n44",
+            ],
+          },
+        },
       },
     },
   },
@@ -131,6 +218,9 @@
     "make": true,
     "svelte": true,
     "astro": true,
+    "latex": true,
+    "ltex": true,
+    "fish": true,
     "dockerfile": true,
     "git-firefly": true,
     "rainbow-csv": true,
