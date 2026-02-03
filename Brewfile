@@ -46,6 +46,13 @@ cask "homebrew/cask/transmission"
 cask "zed"
 cask "syncthing-app"
 
+# Fonts
+tap "shaunsingh/SFMono-Nerd-Font-Ligaturized"
+cask "font-sf-mono-nerd-font-ligaturized"
+cask "font-jetbrains-mono-nerd-font"
+cask "font-mona-sans"
+cask "font-hubot-sans"
+
 # Mac App Store
 mas "Actions", id: 1586435171
 mas "Amphetamine", id: 937984704
