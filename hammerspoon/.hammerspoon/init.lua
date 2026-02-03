@@ -51,6 +51,7 @@ hs.hotkey.bind(hyper, "e", function() openApp("/System/Applications/Mail.app", "
 hs.hotkey.bind(hyper, "h", function() openApp("/Applications/GitHub Desktop.app", "GitHub") end)
 hs.hotkey.bind(hyper, "m", function() openApp("/System/Applications/Music.app", "Music") end)
 hs.hotkey.bind(hyper, "o", function() openApp("/Applications/Claude.app", "Claude") end)
+hs.hotkey.bind(hyper, "i", function() openApp("/Users/alessiofaraci/Applications/Gemini.app") end)
 hs.hotkey.bind(hyper, "s", function() openApp("/Applications/Safari.app", "Safari") end)
 hs.hotkey.bind(hyper, "t", function() openApp("/Applications/Telegram.app", "Telegram") end)
 hs.hotkey.bind(hyper, "g", function() openApp("/Applications/Ghostty.app", "Ghostty") end)
@@ -60,5 +61,4 @@ hs.hotkey.bind(hyper, "x", function() openApp("/Applications/Xcode.app", "Xcode"
 -- hs.hotkey.bind(hyper, "n", function() openApp("/System/Applications/Notes.app") end)
 -- hs.hotkey.bind(hyper, "n", function() openApp("/Applications/Numbers.app") end)
 -- hs.hotkey.bind(hyper, "k", function() openApp("/Applications/Skim.app") end)
--- hs.hotkey.bind(hyper, "i", function() openApp("/Users/alessiofaraci/Applications/Gemini.app") end)
 -- hs.hotkey.bind(hyper, "x", function() openApp("/Applications/Texifier.app") end)
