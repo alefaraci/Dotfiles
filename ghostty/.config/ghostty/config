@@ -5,8 +5,8 @@ window-inherit-working-directory = true
 window-padding-balance = true
 window-padding-x = 10,10
 window-padding-y = 5,10
-window-height = 42
-window-width = 134
+window-height = 36
+window-width = 120
 keybind = shift+enter=text:\x1b\r
 term = xterm-256color
 
