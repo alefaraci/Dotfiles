@@ -1,5 +1,6 @@
 {
-  "default_layout": "alternative_full",
+  "default_layout": "nano",
   "theme": "blue",
+  "background": "clear",
   "sort_reverse": false
 }
