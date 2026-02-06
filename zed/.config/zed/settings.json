@@ -9,20 +9,19 @@
 //
 {
   // Privacy
+  "icon_theme": "Catppuccin Macchiato",
   "ssh_connections": [
     {
       "host": "alenia-server",
       "args": [],
       "projects": [
         {
-          "paths": [
-            "/rpool/data/subvol-114-disk-0/./"
-          ]
-        }
-      ]
-    }
+          "paths": ["/rpool/data/subvol-114-disk-0/./"],
+        },
+      ],
+    },
   ],
-  "theme": "One Dark",
+  "theme": "Catppuccin Macchiato",
   "telemetry": {
     "diagnostics": false,
     "metrics": false,
@@ -237,5 +236,7 @@
     "dockerfile": true,
     "git-firefly": true,
     "rainbow-csv": true,
+    "catppuccin": true,
+    "catppuccin-icons": true,
   },
 }
