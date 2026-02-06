@@ -3,6 +3,7 @@
     "context": "Workspace",
     "bindings": {
       "cmd-shift-j": ["task::Spawn", { "task_name": "Forward Search" }],
+      "shift shift": "file_finder::Toggle",
     },
   },
 ]
