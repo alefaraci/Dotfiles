@@ -9,6 +9,19 @@
 //
 {
   // Privacy
+  "ssh_connections": [
+    {
+      "host": "alenia-server",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/rpool/data/subvol-114-disk-0/./"
+          ]
+        }
+      ]
+    }
+  ],
   "theme": "One Dark",
   "telemetry": {
     "diagnostics": false,
