@@ -20,6 +20,7 @@ brew "container"
 brew "mas"
 brew "stow"
 brew "texlab"
+brew "gh"
 
 # Casks
 cask "affinity"
