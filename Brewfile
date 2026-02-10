@@ -21,6 +21,7 @@ brew "mas"
 brew "stow"
 brew "texlab"
 brew "gh"
+brew "rust"
 
 # Casks
 cask "affinity"
