@@ -1,5 +1,5 @@
 .DS_Store
-.log
+**/*.log
 
 zed/.config/zed/prompts
 zed/.config/zed/conversations
