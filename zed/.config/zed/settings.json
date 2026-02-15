@@ -24,7 +24,11 @@
       ],
     },
   ],
-  "theme": "One Dark",
+  "theme": {
+    "mode": "system",
+    "dark": "Ayu Dark",
+    "light": "Ayu Light",
+  },
   "telemetry": {
     "diagnostics": false,
     "metrics": false,
