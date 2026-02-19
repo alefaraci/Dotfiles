@@ -49,7 +49,6 @@ cask "homebrew/cask/transmission"
 cask "zed"
 cask "syncthing-app"
 cask "lm-studio"
-cask "ollama-app"
 
 # Fonts
 cask "font-jetbrains-mono-nerd-font"
