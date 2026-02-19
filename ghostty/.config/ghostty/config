@@ -1,5 +1,5 @@
 # GHOSTTY CONFIG
-theme = dark:Ghostty Default Style Dark,light:Neobones Light
+#theme = dark:Ghostty Default Style Dark,light:Neobones Light
 #theme = dark:Neobones Dark,light:Neobones Light
 confirm-close-surface = false
 window-inherit-working-directory = true
