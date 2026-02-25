@@ -13,3 +13,5 @@ term = xterm-256color
 
 clipboard-read = allow
 clipboard-write = allow
+
+keybind = global:ctrl+cmd+space=toggle_quick_terminal
