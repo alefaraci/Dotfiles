@@ -228,6 +228,11 @@
     },
   },
 
+  // File Associations
+  "file_types": {
+    "Go": ["tpl"],
+  },
+
   // Extensions
   "auto_install_extensions": {
     "html": true,
