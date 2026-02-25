@@ -14,4 +14,7 @@ term = xterm-256color
 clipboard-read = allow
 clipboard-write = allow
 
-keybind = global:ctrl+cmd+space=toggle_quick_terminal
+keybind = global:cmd+shift+space=toggle_quick_terminal
+
+quick-terminal-position = center
+quick-terminal-size = 60%,70%
