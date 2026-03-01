@@ -241,6 +241,7 @@
     "swift": true,
     "make": true,
     "svelte": true,
+    "scss": true,
     "astro": true,
     "latex": true,
     "ltex": true,
