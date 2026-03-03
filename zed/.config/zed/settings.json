@@ -245,6 +245,7 @@
     "astro": true,
     "latex": true,
     "ltex": true,
+    "typst": true,
     "fish": true,
     "log": true,
     "dockerfile": true,
