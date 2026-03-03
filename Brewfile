@@ -22,6 +22,7 @@ brew "stow"
 brew "texlab"
 brew "gh"
 brew "rust"
+brew "typst"
 
 # Casks
 cask "affinity"
