@@ -171,7 +171,6 @@
     },
     "YAML": {
       "soft_wrap": "editor_width",
-      "language_servers": ["ltex", "..."],
     },
   },
   "lsp": {
