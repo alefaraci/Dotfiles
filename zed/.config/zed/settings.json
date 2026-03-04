@@ -63,7 +63,7 @@
     "max_width_columns": 90,
     "current_line_highlight": "line",
     "thumb": "always",
-    "show": "always",
+    "show": "never",
   },
   "experimental.theme_overrides": {
     "scrollbar.thumb.background": "#9ca6b512",
