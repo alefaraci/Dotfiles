@@ -71,8 +71,8 @@
   },
   "theme": {
     "mode": "system",
-    "dark": "Rosé Pine",
-    "light": "Rosé Pine Dawn",
+    "dark": "Ayu Dark",
+    "light": "Ayu Light",
   },
   "icon_theme": {
     "mode": "system",
@@ -81,7 +81,7 @@
   },
 
   // Edit Predictions (AI Completions)
-  "show_edit_predictions": true,
+  "show_edit_predictions": false,
   "edit_predictions": { "mode": "subtle" },
 
   // Project Panel & Tabs
@@ -254,6 +254,5 @@
     "git-firefly": true,
     "rainbow-csv": true,
     "colored-zed-icons-theme": true,
-    "rose-pine-theme": true,
   },
 }
