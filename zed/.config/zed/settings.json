@@ -81,7 +81,7 @@
   },
 
   // Edit Predictions (AI Completions)
-  "show_edit_predictions": false,
+  "show_edit_predictions": true,
   "edit_predictions": { "mode": "subtle" },
 
   // Project Panel & Tabs
@@ -165,10 +165,13 @@
     },
     "LaTeX": {
       "soft_wrap": "editor_width",
-      "language_servers": ["ltex-ls"],
+    },
+    "Typst": {
+      "language_servers": ["!ltex", "..."],
     },
     "YAML": {
       "soft_wrap": "editor_width",
+      "language_servers": ["ltex", "..."],
     },
   },
   "lsp": {
