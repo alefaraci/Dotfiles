@@ -23,6 +23,8 @@ brew "texlab"
 brew "gh"
 brew "rust"
 brew "typst"
+brew "tinymist"
+brew "typstyle"
 
 # Casks
 cask "affinity"

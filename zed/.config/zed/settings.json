@@ -41,7 +41,10 @@
   },
 
   // Editor Appearance
+  "colorize_brackets": true,
   "ui_font_size": 12,
+  "ui_font_family": "SF Pro",
+  // "buffer_font_family": "SF Mono",
   "buffer_font_size": 12,
   "buffer_line_height": { "custom": 1.4 },
   "cursor_shape": "bar",
@@ -70,9 +73,9 @@
     "scrollbar.track.background": "#232427",
   },
   "theme": {
-    "mode": "system",
-    "dark": "Ayu Dark",
-    "light": "Ayu Light",
+    "mode": "dark",
+    "dark": "Zed Legacy: Andromeda",
+    "light": "Zed Legacy: Andromeda",
   },
   "icon_theme": {
     "mode": "system",
@@ -167,6 +170,8 @@
       "soft_wrap": "editor_width",
     },
     "Typst": {
+      "colorize_brackets": true,
+      "hard_tabs": true,
       "language_servers": ["!ltex", "..."],
     },
     "YAML": {
@@ -178,6 +183,20 @@
       "settings": {
         "python": { "pythonPath": ".venv/bin/python" },
         "basedpyright.analysis": { "diagnosticMode": "workspace" },
+      },
+    },
+    "tinymist": {
+      "initialization_options": {
+        "preview": {
+          "background": {
+            "enabled": true,
+          },
+        },
+      },
+      "settings": {
+        "exportPdf": "onSave",
+        "outputPath": "$root/$name",
+        "formatterMode": "typstyle",
       },
     },
     "ltex": {
@@ -253,5 +272,6 @@
     "git-firefly": true,
     "rainbow-csv": true,
     "colored-zed-icons-theme": true,
+    "zed-legacy-themes": true,
   },
 }
