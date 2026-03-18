@@ -1,20 +1,23 @@
 # GHOSTTY CONFIG
-#theme = dark:Ghostty Default Style Dark,light:Neobones Light
-#theme = dark:Neobones Dark,light:Neobones Light
+
+term = xterm-256color
 confirm-close-surface = false
+
+keybind = shift+enter=text:\x1b\r
+keybind = global:cmd+shift+space=toggle_quick_terminal
+
+clipboard-read = allow
+clipboard-write = allow
+
+font-size=13.5
+theme = Gruber Darker
+
 window-inherit-working-directory = true
 window-padding-balance = true
 window-padding-x = 10,10
 window-padding-y = 5,10
 window-height = 36
 window-width = 120
-keybind = shift+enter=text:\x1b\r
-term = xterm-256color
-
-clipboard-read = allow
-clipboard-write = allow
-
-keybind = global:cmd+shift+space=toggle_quick_terminal
 
 quick-terminal-position = center
 quick-terminal-size = 60%,70%

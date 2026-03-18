@@ -50,13 +50,10 @@
 
   // Editor Appearance
   "colorize_brackets": true,
-  "ui_font_size": 13.5,
+  "ui_font_size": 13,
   "buffer_font_size": 13.5,
   "ui_font_family": "SF Pro Text",
-  "buffer_font_family": "AdwaitaMono Nerd Font Mono",
-  // "buffer_font_family": "JetBrainsMono Nerd Font Mono",
-  // "buffer_font_family": "SF Mono",
-  // "buffer_line_height": "standard",
+  "buffer_font_family": "JetBrainsMono Nerd Font Mono",
   "buffer_line_height": { "custom": 1.55 },
   "cursor_shape": "bar",
   "indent_guides": { "enabled": true, "coloring": "indent_aware" },
@@ -161,10 +158,9 @@
 
   // Terminal
   "terminal": {
-    "font_family": "AdwaitaMono Nerd Font Mono",
-    // "font_family": "JetBrainsMono Nerd Font",
+    "font_family": "JetBrainsMono Nerd Font",
     "font_weight": 400,
-    "font_size": 13,
+    "font_size": 13.5,
     "line_height": "standard",
     "blinking": "on",
     "dock": "bottom",
