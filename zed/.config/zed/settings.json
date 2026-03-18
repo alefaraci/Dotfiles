@@ -57,7 +57,7 @@
   // "buffer_font_family": "SF Mono",
   "buffer_font_size": 13,
   "buffer_font_weight": 400,
-  "buffer_line_height": { "custom": 1.5 },
+  // "buffer_line_height": { "custom": 1.5 },
   "cursor_shape": "bar",
   "indent_guides": { "enabled": true, "coloring": "indent_aware" },
   "scrollbar": {
