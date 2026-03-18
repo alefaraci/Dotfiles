@@ -82,9 +82,9 @@
     "scrollbar.track.background": "#232427",
   },
   "theme": {
-    "mode": "system",
-    "light": "Ayu Light",
-    "dark": "Ayu Dark",
+    "mode": "dark",
+    "light": "Gruvbox Baby",
+    "dark": "Gruvbox Baby",
   },
   "icon_theme": {
     "mode": "system",
@@ -281,5 +281,6 @@
     "git-firefly": true,
     "rainbow-csv": true,
     "colored-zed-icons-theme": true,
+    "gruvbox-baby": true,
   },
 }
