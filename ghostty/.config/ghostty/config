@@ -9,8 +9,13 @@ keybind = global:cmd+shift+space=toggle_quick_terminal
 clipboard-read = allow
 clipboard-write = allow
 
+theme = One Half Dark
+background = #23272e
+background-opacity = 0.9
+background-blur = 40
+cursor-color = #65f859
+
 font-size=13.5
-theme = Gruber Darker
 
 window-inherit-working-directory = true
 window-padding-balance = true
