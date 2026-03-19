@@ -55,7 +55,6 @@ cask "lm-studio"
 
 # Fonts
 cask "font-jetbrains-mono-nerd-font"
-cask "font-adwaita-mono-nerd-font"
 cask "font-mona-sans"
 cask "font-hubot-sans"
 
