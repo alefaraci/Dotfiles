@@ -74,7 +74,6 @@ mas "Supernote Partner", id: 1494992020
 mas "Surfshark", id: 1437809329
 mas "Telegram", id: 747648890
 mas "uBlock Origin Lite", id: 6745342698
-mas "Unwatched", id: 6477287463
 mas "WhatsApp", id: 310633997
 mas "Xcode", id: 497799835
 

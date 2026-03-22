@@ -14,6 +14,7 @@ abbr -a hammerspoon-config "$EDITOR ~/.hammerspoon/init.lua"
 abbr -a fish-config "$EDITOR ~/.config/fish/config.fish"
 abbr -a fish-reload-config "source ~/.config/fish/config.fish"
 abbr -a venv "source ./.venv/bin/activate.fish"
+abbr -a brew-sync "brew update && brew upgrade; brew bundle --verbose; brew bundle cleanup --force; brew cleanup --prune=all"
 
 if status is-interactive
 	# Commands to run in interactive sessions can go here
@@ -22,4 +23,3 @@ end
 # Added by LM Studio CLI (lms)
 set -gx PATH $PATH /Users/alessiofaraci/.lmstudio/bin
 # End of LM Studio CLI section
-
