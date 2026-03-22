@@ -65,7 +65,7 @@ mas "Anycode", id: 1602100698
 mas "Color Picker", id: 1545870783
 mas "Developer", id: 640199958
 mas "Finer", id: 6738301953
-mas "Focus for YouTube", id: 1514703160
+mas "UnTrap for YouTube", id: 1637438059
 mas "Ghostery Privacy Ad Blocker", id: 6504861501
 mas "Keynote", id: 361285480
 mas "Numbers", id: 361304891
