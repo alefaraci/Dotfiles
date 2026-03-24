@@ -76,6 +76,8 @@ mas "Telegram", id: 747648890
 mas "uBlock Origin Lite", id: 6745342698
 mas "WhatsApp", id: 310633997
 mas "Xcode", id: 497799835
+mas "Userscripts", id: 1463298887
+mas "SponsorBlock for Safari", id: 1573461917
 
 # Get hostname
 hostname = `hostname -s`.strip
