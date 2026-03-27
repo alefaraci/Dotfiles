@@ -5,42 +5,6 @@
             "complex_modifications": {
                 "rules": [
                     {
-                        "description": "Remap Ctrl + Mouse Button 5 to Ctrl + Left Arrow",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "modifiers": { "mandatory": ["control"] },
-                                    "pointing_button": "button5"
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "left_arrow",
-                                        "modifiers": ["control"]
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Remap Ctrl + Mouse Button 4 to Ctrl + Right Arrow",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "modifiers": { "mandatory": ["control"] },
-                                    "pointing_button": "button4"
-                                },
-                                "to": [
-                                    {
-                                        "key_code": "right_arrow",
-                                        "modifiers": ["control"]
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
                         "description": "Map Caps Lock to Hyper Key (ctrl+option+cmd+shift)",
                         "manipulators": [
                             {
@@ -77,6 +41,24 @@
                                 "type": "basic"
                             }
                         ]
+                    },
+                    {
+                        "manipulators": [
+                            {
+                                "description": "Change f13 to fn.",
+                                "from": {
+                                    "key_code": "f13",
+                                    "modifiers": { "optional": ["any"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "fn",
+                                        "modifiers": []
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
                     }
                 ]
             },
@@ -89,20 +71,6 @@
                         "vendor_id": 6645
                     },
                     "ignore": false
-                },
-                {
-                    "identifiers": {
-                        "is_pointing_device": true,
-                        "product_id": 50503,
-                        "vendor_id": 1133
-                    },
-                    "ignore": false,
-                    "simple_modifications": [
-                        {
-                            "from": { "pointing_button": "button6" },
-                            "to": [{ "consumer_key_code": "display_brightness_decrement" }]
-                        }
-                    ]
                 }
             ],
             "name": "Default profile",
