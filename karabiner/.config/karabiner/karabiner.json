@@ -5,7 +5,7 @@
             "complex_modifications": {
                 "rules": [
                     {
-                        "description": "Remap Ctrl + Mouse Button 5 to Ctrl + Left Arrow",
+                        "description": "Remap Ctrl + Mouse Button 5 to Ctrl + Right Arrow",
                         "manipulators": [
                             {
                                 "from": {
@@ -14,7 +14,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "left_arrow",
+                                        "key_code": "right_arrow",
                                         "modifiers": ["control"]
                                     }
                                 ],
@@ -23,7 +23,7 @@
                         ]
                     },
                     {
-                        "description": "Remap Ctrl + Mouse Button 4 to Ctrl + Right Arrow",
+                        "description": "Remap Ctrl + Mouse Button 4 to Ctrl + Left Arrow",
                         "manipulators": [
                             {
                                 "from": {
@@ -32,7 +32,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "right_arrow",
+                                        "key_code": "left_arrow",
                                         "modifiers": ["control"]
                                     }
                                 ],
