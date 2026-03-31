@@ -54,6 +54,10 @@
   },
 
   // Editor Appearance
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false,
+  },
   "active_pane_modifiers": {
     "inactive_opacity": 0.9,
   },
