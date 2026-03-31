@@ -113,7 +113,7 @@
   "theme": {
     "dark": "Ayu Dark",
     "light": "Ayu Light",
-    "mode": "system",
+    "mode": "dark",
   },
   "icon_theme": {
     "dark": "Colored Zed Icons Theme Dark",
