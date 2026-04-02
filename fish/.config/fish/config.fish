@@ -14,7 +14,7 @@ abbr -a hammerspoon-config "$EDITOR ~/.hammerspoon/init.lua"
 abbr -a fish-config "$EDITOR ~/.config/fish/config.fish"
 abbr -a fish-reload-config "source ~/.config/fish/config.fish"
 abbr -a venv "source ./.venv/bin/activate.fish"
-abbr -a brew-sync "brew update && brew upgrade; brew bundle --verbose; brew bundle cleanup --force; brew cleanup --prune=all"
+abbr -a brew-sync "cd ~/.dotfiles; brew update && brew upgrade; brew bundle --verbose; brew bundle cleanup --force; brew cleanup --prune=all"
 
 if status is-interactive
 	# Commands to run in interactive sessions can go here
