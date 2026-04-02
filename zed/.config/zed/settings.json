@@ -301,6 +301,7 @@
     "toml": true,
     "lua": true,
     "swift": true,
+    "xml": true,
     "make": true,
     "svelte": true,
     "scss": true,

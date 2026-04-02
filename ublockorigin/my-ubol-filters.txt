@@ -1,0 +1,48 @@
+www.ilsole24ore.com##div.embed-by-id > iframe
+
+www.linkedin.com##aside.scaffold-layout__aside
+www.linkedin.com##footer
+www.linkedin.com##footer.global-footer-compact
+www.linkedin.com##section > span
+www.linkedin.com##span.global-nav__primary-link--no-icon
+www.linkedin.com##span.text-body-xsmall-bold.t-black.v-align-middle
+www.linkedin.com##ul.global-footer-compact__content.global-footer-compact__links
+www.linkedin.com##.fie-impression-container > .relative span:has-text(Suggested):upward([data-id])
+www.linkedin.com##div:has(> h2:has-text(/Feed post/)):has(p:has-text(/^Promoted$/))
+www.linkedin.com##div:has(> h2:has-text(/Feed post/)):has(p:has-text(/^Suggested$/))
+www.linkedin.com##div:has(> h2:has-text(/Feed post/)):has(span:has-text(/^Promoted$/))
+www.linkedin.com##div:has(> h2:has-text(/Feed post/)):has(span:has-text(/^Suggested$/))
+
+www.open.online##img.bandesk
+
+www.reddit.com###RISORSE
+www.reddit.com###advertise-button > .justify-center.items-center.flex > .flex > svg > path
+www.reddit.com##.border-neutral-border-weak.border-solid.border-b-sm.border-0.pb-sm.mb-sm
+www.reddit.com##.gap-xs.items-center.flex-wrap.gap-\[var\(--rem4\)\].flex.text-neutral-content-weak
+www.reddit.com##.justify-center.items-center.flex > .flex > .rpl-rtl-icon
+www.reddit.com##.justify-end.flex-col.flex.grow.py-md.visible
+www.reddit.com##.left-nav-manage-communities-link.mt-0.list-none.relative > .no-underline.bg-transparent.s\:rounded-2.-outline-offset-1.py-2xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
+www.reddit.com##.my-2xs.py-2xs.px-md.flex-col.flex.nd\:visible
+www.reddit.com##.nd\:hidden > .rounded-none.border-none.bg-transparent.m-0.p-0 > .font-normal > faceplate-tracker > .mt-0.list-none.relative > .s\:rounded-2.bg-transparent.-outline-offset-1.py-2xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
+www.reddit.com##.nd\:visible > faceplate-expandable-section-helper > .rounded-none.border-none.bg-transparent.m-0.p-0 > .font-normal > .mt-0.list-none.relative > .s\:rounded-2.bg-transparent.-outline-offset-1.py-2xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
+www.reddit.com##.select-none.min-h-screen-without-header.w-full.s\:shrink.shrink-0.pt-md.mb-0.mt-0.flex-col.flex.box-border.z-2 > faceplate-expandable-section-helper > .rounded-none.border-none.bg-transparent.m-0.p-0 > .font-normal > faceplate-tracker > .mt-0.list-none.relative > .s\:rounded-2.bg-transparent.-outline-offset-1.py-2xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
+www.reddit.com##a.no-underline.text-tone-2.text-10.px-md
+www.reddit.com##custom-feed-recommendations
+www.reddit.com##custom-feed-recommendations[subreddit-ids][exclude][curator][feed-name]
+www.reddit.com##div.i18n-translatable-text
+www.reddit.com##div.text-neutral-content-weak.px-md:nth-of-type(5)
+www.reddit.com##div.text-neutral-content-weak.px-md:nth-of-type(6)
+www.reddit.com##div.text-neutral-content-weak.px-md:nth-of-type(7)
+www.reddit.com##div.text-neutral-content-weak.px-md:nth-of-type(8)
+www.reddit.com##div.text-neutral-content-weak.px-md:nth-of-type(9)
+www.reddit.com##div[tabindex][style]
+www.reddit.com##left-nav-top-section
+www.reddit.com##left-nav-top-section[home][popular][news][explore][is-desktop][selectedpagetype][country][show-ask-button]
+www.reddit.com##reddit-recent-pages
+www.reddit.com##span.flex.shrink-0.items-center.justify-center.h-xl.w-xl.text-20.leading-4
+www.reddit.com##span.whitespace-nowrap.text-ellipsis.overflow-hidden
+
+www.youtube.com###rich-shelf-header-container
+www.youtube.com##.yt-spec-button-shape-next--enable-backdrop-filter-experiment.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text.yt-spec-button-shape-next > .yt-spec-touch-feedback-shape--overlay-touch-response.yt-spec-touch-feedback-shape > .yt-spec-touch-feedback-shape__fill
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
+www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(3)
