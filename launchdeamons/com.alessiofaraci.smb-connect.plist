@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.alessiofaraci.smb-connect</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/bin/bash</string>
+		<string>/Users/alessiofaraci/.dotfiles/launchdeamons/smb-connect.sh</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardOutPath</key>
+	<string>/Users/alessiofaraci/Library/Logs/smb-connect-stdout.log</string>
+	<key>StandardErrorPath</key>
+	<string>/Users/alessiofaraci/Library/Logs/smb-connect-stderr.log</string>
+</dict>
+</plist>

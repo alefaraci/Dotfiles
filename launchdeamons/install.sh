@@ -19,13 +19,13 @@ echo ""
 
 # Remove old password if it exists to avoid "item already exists" error
 security delete-internet-password -a "$SMB_USER" -s "$KEYCHAIN_SERVER" -r "smb " 2>/dev/null
-security add-internet-password -a "$SMB_USER" -s "$KEYCHAIN_SERVER" -w "$SMB_PASS" -w $SMB_PASS
+security add-internet-password -a "$SMB_USER" -s "$KEYCHAIN_SERVER" -r "smb " -w "$SMB_PASS"
 
 # SET EXECUTABLE PERMISSIONS
 chmod +x "$SCRIPT_DIR/smb-connect.sh";
 ln -sf "$SCRIPT_DIR/com.alessiofaraci.smb-connect.plist" ~/Library/LaunchAgents/;
-launchctl unload ~/Library/LaunchAgents/com.alessiofaraci.smb-connect.plist 2>/dev/null
-launchctl load ~/Library/LaunchAgents/com.alessiofaraci.smb-connect.plist;
+launchctl bootout gui/$(id -u) ~/Library/LaunchAgents/com.alessiofaraci.smb-connect.plist 2>/dev/null
+launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.alessiofaraci.smb-connect.plist
 
 # VERIFY
 launchctl list | grep smb-connect;
