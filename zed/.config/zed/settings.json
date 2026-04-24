@@ -115,9 +115,9 @@
     },
   },
   "theme": {
-    "dark": "Ayu Dark",
-    "light": "Ayu Light",
-    "mode": "dark",
+    "dark": "One Dark",
+    "light": "One Light",
+    "mode": "system",
   },
   "icon_theme": {
     "dark": "Colored Zed Icons Theme Dark",
