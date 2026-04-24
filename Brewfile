@@ -25,10 +25,10 @@ brew "rust"
 brew "typst"
 brew "tinymist"
 brew "typstyle"
-brew "obsidian"
 
 # Casks
 cask "affinity"
+cask "obsidian"
 cask "bibdesk"
 cask "brave-browser"
 cask "calibre"
