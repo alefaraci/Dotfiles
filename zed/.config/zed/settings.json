@@ -8,6 +8,20 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 //
 {
+  "outline_panel": {
+    "dock": "right"
+  },
+  "collaboration_panel": {
+    "dock": "right"
+  },
+  "agent": {
+    "dock": "left",
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "git_panel": {
+    "dock": "right"
+  },
   "autosave": {
     "after_delay": {
       "milliseconds": 1,
@@ -131,6 +145,7 @@
 
   // Project Panel & Tabs
   "project_panel": {
+    "dock": "right",
     "folder_icons": true,
     "entry_spacing": "standard",
   },
