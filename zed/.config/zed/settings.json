@@ -9,24 +9,24 @@
 //
 {
   "outline_panel": {
-    "dock": "right"
+    "dock": "right",
   },
   "collaboration_panel": {
-    "dock": "right"
+    "dock": "right",
   },
   "agent": {
     "dock": "left",
     "favorite_models": [],
-    "model_parameters": []
+    "model_parameters": [],
   },
   "git_panel": {
-    "dock": "right"
+    "dock": "right",
   },
-  "autosave": {
-    "after_delay": {
-      "milliseconds": 1,
-    },
-  },
+  // "autosave": {
+  //   "after_delay": {
+  //     "milliseconds": 1,
+  //   },
+  // },
   // Privacy
   "agent_servers": {
     "gemini": {
@@ -78,8 +78,8 @@
   "colorize_brackets": true,
   "ui_font_size": 13,
   "buffer_font_size": 13.5,
-  "ui_font_family": "SF Pro Text",
-  "buffer_font_family": "SF Mono",
+  // "ui_font_family": "SF Pro Text",
+  // "buffer_font_family": "SF Mono",
   "buffer_line_height": "standard",
   "indent_guides": { "enabled": true, "coloring": "indent_aware" },
   "scrollbar": {
@@ -104,7 +104,7 @@
   "experimental.theme_overrides": {
     "players": [
       {
-        "cursor": "#65f859",
+        // "cursor": "#65f859",
       },
     ],
     "syntax": {
