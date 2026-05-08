@@ -23,3 +23,6 @@ end
 # Added by LM Studio CLI (lms)
 set -gx PATH $PATH /Users/alessiofaraci/.lmstudio/bin
 # End of LM Studio CLI section
+
+# Added by Antigravity
+fish_add_path /Users/alessiofaraci/.antigravity/antigravity/bin
