@@ -15,7 +15,7 @@ local function openOrActivateFinder()
         end tell
     ]]
     hs.osascript.applescript(appleScript)
-    hs.alert.show("Finder", 0.25)
+    -- hs.alert.show("Finder", 0.25)
 end
 
 -- Open or activate Finder
