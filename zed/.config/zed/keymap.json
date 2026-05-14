@@ -6,10 +6,4 @@
       "shift shift": "file_finder::Toggle",
     },
   },
-  {
-    "context": "ProjectPanel && not_editing",
-    "bindings": {
-      "cmd-shift-t": "project_panel::Rename"
-    }
-  }
 ]
