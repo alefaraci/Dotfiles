@@ -6,4 +6,9 @@
       "shift shift": "file_finder::Toggle",
     },
   },
+  {
+    "bindings": {
+      "cmd-shift-t": "workspace::NewCenterTerminal"
+    }
+  }
 ]
