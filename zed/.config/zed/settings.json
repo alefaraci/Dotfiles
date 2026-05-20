@@ -8,6 +8,35 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 //
 {
+  "proxy": "",
+  "use_system_window_tabs": false,
+  "centered_layout": {
+    "right_padding": 0.2,
+    "left_padding": 0.2
+  },
+  "focus_follows_mouse": {
+    "enabled": false
+  },
+  "bottom_dock_layout": "contained",
+  "tab_bar": {
+    "show_pinned_tabs_in_separate_row": true
+  },
+  "status_bar": {
+    "show_active_file": false
+  },
+  "title_bar": {
+    "show_menus": false,
+    "show_branch_name": true,
+    "show_branch_status_icon": true
+  },
+  "gutter": {
+    "min_line_number_digits": 3
+  },
+  "relative_line_numbers": "enabled",
+  "mouse_wheel_zoom": true,
+  "scroll_sensitivity": 1.0,
+  "autosave": "off",
+  "cli_default_open_behavior": "new_window",
   "outline_panel": {
     "dock": "right",
   },
@@ -69,15 +98,16 @@
 
   // Editor Appearance
   "toolbar": {
-    "breadcrumbs": false,
+    "breadcrumbs": true,
     "quick_actions": false,
   },
   "active_pane_modifiers": {
+    "border_size": 0.0,
     "inactive_opacity": 0.9,
   },
   "colorize_brackets": true,
-  "ui_font_size": 13,
-  "buffer_font_size": 13.5,
+  "ui_font_size": 12.5,
+  "buffer_font_size": 12.0,
   // "ui_font_family": "SF Pro Text",
   // "buffer_font_family": "SF Mono",
   "buffer_line_height": "standard",
@@ -145,11 +175,23 @@
 
   // Project Panel & Tabs
   "project_panel": {
+    "hide_hidden": false,
+    "hide_root": true,
+    "indent_guides": {
+      "show": "never"
+    },
+    "git_status_indicator": false,
+    "diagnostic_badges": true,
+    "bold_folder_labels": true,
+    "indent_size": 15.0,
+    "file_icons": true,
+    "hide_gitignore": false,
     "dock": "right",
-    "folder_icons": true,
+    "folder_icons": false,
     "entry_spacing": "standard",
   },
   "tabs": {
+    "file_icons": true,
     "git_status": true,
     "close_position": "left",
   },
@@ -204,7 +246,7 @@
   "terminal": {
     "font_family": "JetBrainsMono Nerd Font",
     "font_weight": 400,
-    "font_size": 13.5,
+    "font_size": 12.0,
     "line_height": "standard",
     "blinking": "on",
     "dock": "bottom",
