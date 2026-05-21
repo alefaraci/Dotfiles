@@ -19,7 +19,7 @@
   },
   "bottom_dock_layout": "contained",
   "tab_bar": {
-    "show_pinned_tabs_in_separate_row": true
+    "show_pinned_tabs_in_separate_row": false
   },
   "status_bar": {
     "show_active_file": false
