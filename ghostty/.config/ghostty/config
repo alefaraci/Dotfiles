@@ -4,7 +4,9 @@ term = xterm-256color
 confirm-close-surface = false
 
 keybind = shift+enter=text:\x1b\r
-keybind = global:cmd+shift+space=toggle_quick_terminal
+# keybind = global:cmd+shift+space=toggle_quick_terminal
+keybind = global:cmd+shift+alt+ctrl+space=toggle_quick_terminal
+
 
 clipboard-read = allow
 clipboard-write = allow
