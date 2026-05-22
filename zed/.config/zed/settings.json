@@ -33,7 +33,7 @@
     "min_line_number_digits": 3
   },
   "relative_line_numbers": "enabled",
-  "mouse_wheel_zoom": true,
+  "mouse_wheel_zoom": false,
   "scroll_sensitivity": 1.0,
   "autosave": "off",
   "cli_default_open_behavior": "new_window",
