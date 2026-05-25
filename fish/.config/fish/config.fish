@@ -26,3 +26,6 @@ set -gx PATH $PATH /Users/alessiofaraci/.lmstudio/bin
 
 # Added by Antigravity
 fish_add_path /Users/alessiofaraci/.antigravity/antigravity/bin
+
+# Added by Antigravity IDE
+fish_add_path /Users/alessiofaraci/.antigravity-ide/antigravity-ide/bin
