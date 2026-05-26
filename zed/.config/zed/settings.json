@@ -129,7 +129,7 @@
   "theme": {
     "dark": "One Dark",
     "light": "One Light",
-    "mode": "system",
+    "mode": "dark",
   },
   "icon_theme": {
     "dark": "Colored Zed Icons Theme Dark",
