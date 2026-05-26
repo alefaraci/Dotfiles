@@ -8,58 +8,6 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 //
 {
-  "proxy": "",
-  "use_system_window_tabs": false,
-  "centered_layout": {
-    "right_padding": 0.2,
-    "left_padding": 0.2
-  },
-  "focus_follows_mouse": {
-    "enabled": false
-  },
-  "bottom_dock_layout": "contained",
-  "tab_bar": {
-    "show_pinned_tabs_in_separate_row": false
-  },
-  "status_bar": {
-    "show_active_file": false
-  },
-  "title_bar": {
-    "show_menus": false,
-    "show_branch_name": true,
-    "show_branch_status_icon": true
-  },
-  "gutter": {
-    "min_line_number_digits": 3
-  },
-  "relative_line_numbers": "enabled",
-  "mouse_wheel_zoom": false,
-  "scroll_sensitivity": 1.0,
-  "autosave": "off",
-  "cli_default_open_behavior": "new_window",
-  "outline_panel": {
-    "default_width": 240.0,
-    "dock": "left",
-  },
-  "collaboration_panel": {
-    "button": false,
-    "dock": "right",
-  },
-  "agent": {
-    "sidebar_side": "right",
-    "button": true,
-    "dock": "right",
-    "favorite_models": [],
-    "model_parameters": [],
-  },
-  "git_panel": {
-    "dock": "right",
-  },
-  // "autosave": {
-  //   "after_delay": {
-  //     "milliseconds": 1,
-  //   },
-  // },
   // Privacy
   "agent_servers": {
     "gemini": {
@@ -101,6 +49,21 @@
   },
 
   // Editor Appearance
+  "outline_panel": {
+    "dock": "left",
+  },
+  "collaboration_panel": {
+    "button": false,
+    "dock": "right",
+  },
+  "agent": {
+    "sidebar_side": "right",
+    "button": true,
+    "dock": "right",
+  },
+  "git_panel": {
+    "dock": "right",
+  },
   "toolbar": {
     "breadcrumbs": true,
     "quick_actions": false,
@@ -112,9 +75,9 @@
   "colorize_brackets": true,
   "ui_font_size": 13.0,
   "buffer_font_size": 13.0,
-  // "ui_font_family": "SF Pro Text",
-  // "buffer_font_family": "SF Mono",
-  "buffer_line_height": "standard",
+  "ui_font_family": "SF Pro Text",
+  "buffer_font_family": "SF Mono",
+  "buffer_line_height": { "custom": 1.4 },
   "indent_guides": { "enabled": true, "coloring": "indent_aware" },
   "scrollbar": {
     "show": "auto",
@@ -138,7 +101,7 @@
   "experimental.theme_overrides": {
     "players": [
       {
-        // "cursor": "#65f859",
+        "cursor": "#65f859",
       },
     ],
     "syntax": {
@@ -179,12 +142,8 @@
 
   // Project Panel & Tabs
   "project_panel": {
-    "default_width": 240.0,
     "hide_hidden": false,
     "hide_root": true,
-    "indent_guides": {
-      "show": "never"
-    },
     "git_status_indicator": false,
     "diagnostic_badges": true,
     "bold_folder_labels": true,
