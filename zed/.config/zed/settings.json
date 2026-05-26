@@ -60,6 +60,7 @@
     "sidebar_side": "right",
     "button": true,
     "dock": "right",
+    "enabled": false,
   },
   "git_panel": {
     "dock": "right",
