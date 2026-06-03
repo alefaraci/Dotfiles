@@ -102,7 +102,7 @@
   "experimental.theme_overrides": {
     "players": [
       {
-        "cursor": "#65f859",
+        // "cursor": "#65f859",
       },
     ],
     "syntax": {
@@ -128,8 +128,8 @@
   },
   "theme": {
     "dark": "One Dark",
-    "light": "One Light",
-    "mode": "dark",
+    "light": "Zed Legacy: Atelier Forest Light",
+    "mode": "light",
   },
   "icon_theme": {
     "dark": "Colored Zed Icons Theme Dark",
