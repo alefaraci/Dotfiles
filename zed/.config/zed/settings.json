@@ -337,5 +337,6 @@
     "git-firefly": true,
     "rainbow-csv": true,
     "colored-zed-icons-theme": true,
+    "zed-legacy-themes": true,
   },
 }
