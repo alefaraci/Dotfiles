@@ -4,17 +4,14 @@ term = xterm-256color
 confirm-close-surface = false
 
 keybind = shift+enter=text:\x1b\r
-# keybind = global:cmd+shift+space=toggle_quick_terminal
 keybind = global:cmd+shift+alt+ctrl+space=toggle_quick_terminal
-
 
 clipboard-read = allow
 clipboard-write = allow
 
-theme = One Half Dark
-background = #23272e
-background-opacity = 0.9
-background-blur = 40
+theme = Red Alert 
+# background-opacity = 0.97
+# background-blur = 40
 cursor-color = #65f859
 
 font-size=13.5
