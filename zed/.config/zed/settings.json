@@ -50,7 +50,7 @@
 
   // Editor Appearance
   "outline_panel": {
-    "dock": "right",
+    "dock": "left",
   },
   "collaboration_panel": {
     "button": false,
@@ -63,7 +63,7 @@
     "enabled": false,
   },
   "git_panel": {
-    "dock": "right",
+    "dock": "left",
   },
   "toolbar": {
     "breadcrumbs": true,
@@ -127,7 +127,7 @@
     },
   },
   "theme": {
-    "dark": "Zed Legacy: Atelier Savanna Dark",
+    "dark": "Zed Legacy: Rosé Pine",
     "light": "Zed Legacy: Atelier Forest Light",
     "mode": "dark",
   },

@@ -1,4 +1,5 @@
-Model: Apple M4
-E-Core Count: 6
-P-Core Count: 4
-GPU Core Count: 10
+Model: Apple M1 Pro
+E-Core Count: 2
+P-Core Count: 8
+S-Core Count: 0
+GPU Core Count: 16
