@@ -50,7 +50,7 @@
 
   // Editor Appearance
   "outline_panel": {
-    "dock": "left",
+    "dock": "right",
   },
   "collaboration_panel": {
     "button": false,
@@ -63,7 +63,7 @@
     "enabled": false,
   },
   "git_panel": {
-    "dock": "left",
+    "dock": "right",
   },
   "toolbar": {
     "breadcrumbs": true,
@@ -151,7 +151,7 @@
     "indent_size": 15.0,
     "file_icons": true,
     "hide_gitignore": false,
-    "dock": "right",
+    "dock": "left",
     "folder_icons": false,
     "entry_spacing": "standard",
   },
