@@ -54,6 +54,7 @@ cask "zed"
 cask "syncthing-app"
 cask "lm-studio"
 cask "monitorcontrol"
+cask "remanager"
 
 # Fonts
 cask "font-jetbrains-mono-nerd-font"
