@@ -72,7 +72,7 @@ mas "Ghostery Privacy Ad Blocker", id: 6504861501
 mas "Keynote", id: 361285480
 mas "Numbers", id: 361304891
 mas "Pages", id: 361309726
-mas "Supernote Partner", id: 1494992020
+mas "reMarkable desktop", id: 1276493162
 mas "Surfshark", id: 1437809329
 mas "Telegram", id: 747648890
 mas "uBlock Origin Lite", id: 6745342698
