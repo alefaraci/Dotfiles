@@ -25,6 +25,7 @@ brew "rust"
 brew "typst"
 brew "tinymist"
 brew "typstyle"
+brew "imagemagick"
 
 # Casks
 cask "affinity"
