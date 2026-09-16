@@ -29,7 +29,6 @@ brew "imagemagick"
 
 # Casks
 cask "affinity"
-cask "obsidian"
 cask "bibdesk"
 cask "brave-browser"
 cask "calibre"
@@ -39,10 +38,8 @@ cask "find-any-file"
 cask "ghostty"
 cask "github"
 cask "hammerspoon"
-cask "iina"
 cask "karabiner-elements"
 cask "kindle-previewer"
-cask "latest"
 cask "mactex"
 cask "markedit"
 cask "onyx"
@@ -55,7 +52,6 @@ cask "zed"
 cask "syncthing-app"
 cask "lm-studio"
 cask "monitorcontrol"
-cask "remanager"
 
 # Fonts
 cask "font-jetbrains-mono-nerd-font"
@@ -74,7 +70,6 @@ mas "Ghostery Privacy Ad Blocker", id: 6504861501
 mas "Keynote", id: 361285480
 mas "Numbers", id: 361304891
 mas "Pages", id: 361309726
-mas "reMarkable desktop", id: 1276493162
 mas "Surfshark", id: 1437809329
 mas "Telegram", id: 747648890
 mas "uBlock Origin Lite", id: 6745342698
