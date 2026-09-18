@@ -1,0 +1,334 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+//
+{
+  // Privacy
+  "agent_servers": {
+    "gemini": {
+      "type": "registry",
+    },
+    "claude-acp": {
+      "type": "registry",
+    },
+  },
+  "ssh_connections": [
+    {
+      "host": "alenia-server",
+      "args": [],
+      "projects": [
+        {
+          "paths": ["/./"],
+        },
+        {
+          "paths": ["/rpool/data/subvol-114-disk-0/./"],
+        },
+      ],
+    },
+  ],
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+
+  // Vim Mode
+  "vim_mode": true,
+  "vim": {
+    "cursor_shape": {
+      "normal": "block",
+      "insert": "bar",
+      "replace": "hollow",
+      "visual": "underline",
+    },
+    "use_system_clipboard": "always",
+  },
+
+  // Editor Appearance
+  "outline_panel": {
+    "dock": "right",
+  },
+  "collaboration_panel": {
+    "button": false,
+    "dock": "right",
+  },
+  "agent": {
+    "sidebar_side": "right",
+    "button": true,
+    "dock": "right",
+    "enabled": false,
+  },
+  "git_panel": {
+    "dock": "right",
+  },
+  "toolbar": {
+    "breadcrumbs": true,
+    "quick_actions": false,
+  },
+  "active_pane_modifiers": {
+    "border_size": 0.0,
+    "inactive_opacity": 0.9,
+  },
+  "colorize_brackets": true,
+  "ui_font_size": 13.0,
+  "buffer_font_size": 13.0,
+  "ui_font_family": "SF Pro Text",
+  "buffer_font_family": "SF Mono",
+  "buffer_line_height": { "custom": 1.4 },
+  "indent_guides": { "enabled": true, "coloring": "indent_aware" },
+  "scrollbar": {
+    "show": "auto",
+    "cursors": true,
+    "git_diff": true,
+    "search_results": true,
+    "selected_text": true,
+    "selected_symbol": true,
+    "diagnostics": "all",
+    "axes": {
+      "horizontal": false,
+      "vertical": false,
+    },
+  },
+  "minimap": {
+    "max_width_columns": 90,
+    "current_line_highlight": "line",
+    "thumb": "always",
+    "show": "never",
+  },
+  "experimental.theme_overrides": {
+    "players": [
+      {
+        // "cursor": "#65f859",
+      },
+    ],
+    "syntax": {
+      "comment": {
+        "font_style": "italic",
+      },
+      "comment.doc": {
+        "font_style": "italic",
+      },
+      "predictive": {
+        "font_style": "italic",
+        "font_weight": 600,
+      },
+      "emphasis": {
+        "font_style": "italic",
+        "font_weight": 600,
+      },
+      "keyword": {
+        "font_style": "italic",
+        "font_weight": 600,
+      },
+    },
+  },
+  "theme": "One Dark",
+  "icon_theme": "Colored Zed Icons Theme Dark",
+
+  // Edit Predictions (AI Completions)
+  "show_edit_predictions": true,
+  "edit_predictions": { "mode": "eager" },
+
+  // Project Panel & Tabs
+  "project_panel": {
+    "hide_hidden": false,
+    "hide_root": true,
+    "git_status_indicator": false,
+    "diagnostic_badges": true,
+    "bold_folder_labels": true,
+    "indent_size": 15.0,
+    "file_icons": true,
+    "hide_gitignore": false,
+    "dock": "left",
+    "folder_icons": false,
+    "entry_spacing": "standard",
+  },
+  "tabs": {
+    "file_icons": true,
+    "git_status": true,
+    "close_position": "left",
+  },
+  "file_scan_exclusions": [
+    "**/.git",
+    "**/.DS_Store",
+    "**/.gitattributes",
+    "**/.python-version",
+    "**/.venv",
+    "**/__pycache__",
+    "**/.ruff_cache",
+    "**/.ropeproject",
+    "**/.pytest_cache",
+    "**/.hypothesis",
+    "**/*.lock",
+    // LaTeX files
+    "**/*.toc",
+    "**/*.gz",
+    "**/*.out",
+    "**/*.lot",
+    "**/*.lof",
+    "**/*.glo",
+    "**/*.fls",
+    "**/*.acn",
+    "**/*.aux",
+    "**/*.bbl",
+    "**/*.blg",
+    "**/*.fdb_latexmk",
+    "**/*.ist",
+    "**/*.nlo",
+    "**/*.glsdefs",
+    "**/*.nls",
+    "**/*.synctex.gz",
+    "**/*.ilg",
+    "**/*.nav",
+    "**/*.acr",
+    "**/*.alg",
+    "**/._*",
+    "**/*.gls",
+    "**/*.glg",
+  ],
+
+  // Git
+  "git": {
+    "inline_blame": {
+      "enabled": false,
+      "delay_ms": 5000,
+    },
+  },
+
+  // Terminal
+  "terminal": {
+    "font_family": "JetBrainsMono Nerd Font",
+    "font_weight": 400,
+    "font_size": 13.0,
+    "line_height": "standard",
+    "blinking": "on",
+    "dock": "bottom",
+    "toolbar": { "breadcrumbs": false },
+  },
+
+  // LSP & Language Settings
+  "lsp_document_colors": "background",
+  "languages": {
+    "Python": {
+      "language_servers": ["ruff", "basedpyright", "pyright"],
+      "format_on_save": "on",
+      "formatter": [{ "language_server": { "name": "ruff" } }],
+      "show_edit_predictions": true,
+    },
+    "JSON": {
+      "soft_wrap": "editor_width",
+    },
+    "LaTeX": {
+      "soft_wrap": "editor_width",
+    },
+    "Typst": {
+      "colorize_brackets": true,
+      "hard_tabs": true,
+      "language_servers": ["!ltex", "..."],
+    },
+    "YAML": {
+      "soft_wrap": "editor_width",
+    },
+  },
+  "lsp": {
+    "basedpyright": {
+      "settings": {
+        "python": { "pythonPath": ".venv/bin/python" },
+        "basedpyright.analysis": { "diagnosticMode": "workspace" },
+      },
+    },
+    "tinymist": {
+      "initialization_options": {
+        "preview": {
+          "background": {
+            "enabled": true,
+          },
+        },
+      },
+      "settings": {
+        "exportPdf": "never",
+        "outputPath": "$root/$name",
+        "formatterMode": "typstyle",
+      },
+    },
+    "ltex": {
+      "settings": {
+        "ltex": {
+          "language": "en-US",
+        },
+      },
+    },
+    "texlab": {
+      "settings": {
+        "texlab": {
+          "latexindent": { "modifyLineBreaks": true },
+          "build": {
+            "onSave": false,
+            "forwardSearchAfter": false,
+          },
+          "forwardSearch": {
+            "executable": "/Applications/Skim.app/Contents/SharedSupport/displayline",
+            "args": ["-r", "%l", "%p", "%f"],
+          },
+          "diagnostics": {
+            "ignoredPatterns": [
+              "Overfull \\\\hbox",
+              "Overfull \\\\vbox",
+              "Package hyperref Warning: Suppressing link with empty target",
+              "Underfull \\\\hbox",
+              "Float too large for page by",
+              "Float specifier changed to ht",
+              "Unused label",
+            ],
+          },
+          "chktex": {
+            "onOpenAndSave": true,
+            "onEdit": true,
+            "additionalArgs": [
+              "-n30",
+              "-n24",
+              "-n12",
+              "-n1",
+              "-n35",
+              "-n3",
+              "-n8",
+              "-n44",
+            ],
+          },
+        },
+      },
+    },
+  },
+
+  // File Associations
+  "file_types": {
+    "Go": ["tpl"],
+  },
+
+  // Extensions
+  "auto_install_extensions": {
+    "html": true,
+    "toml": true,
+    "lua": true,
+    "swift": true,
+    "xml": true,
+    "make": true,
+    "svelte": true,
+    "scss": true,
+    "astro": true,
+    "latex": true,
+    "ltex": true,
+    "typst": true,
+    "fish": true,
+    "log": true,
+    "dockerfile": true,
+    "git-firefly": true,
+    "rainbow-csv": true,
+    "colored-zed-icons-theme": true,
+    "zed-legacy-themes": true,
+  },
+}
