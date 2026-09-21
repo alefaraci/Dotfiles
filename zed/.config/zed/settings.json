@@ -9,6 +9,7 @@
 //
 {
   // Privacy
+  "cli_default_open_behavior": "existing_window",
   "agent_servers": {
     "gemini": {
       "type": "registry",
