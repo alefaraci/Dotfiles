@@ -10,7 +10,7 @@ clipboard-read = allow
 clipboard-write = allow
 
 theme = Andromeda
-background-opacity = 0.87
+background-opacity = 0.93
 background-blur = 30
 cursor-color = #65f859
 
