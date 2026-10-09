@@ -58,7 +58,6 @@
     "dock": "right",
   },
   "agent": {
-    "sidebar_side": "right",
     "button": true,
     "dock": "right",
     "enabled": false,
@@ -127,7 +126,7 @@
       },
     },
   },
-  "theme": "One Dark",
+  "theme": "Zed Legacy: Andromeda",
   "icon_theme": "Colored Zed Icons Theme Dark",
 
   // Edit Predictions (AI Completions)
@@ -145,7 +144,6 @@
     "file_icons": true,
     "hide_gitignore": false,
     "dock": "left",
-    "folder_icons": false,
     "entry_spacing": "standard",
   },
   "tabs": {
@@ -233,6 +231,12 @@
     },
     "YAML": {
       "soft_wrap": "editor_width",
+    },
+    "TOML": {
+      "soft_wrap": "editor_width",
+      "colorize_brackets": true,
+      "hard_tabs": true,
+      "language_servers": ["ltex", "..."],
     },
   },
   "lsp": {
