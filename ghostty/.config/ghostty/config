@@ -9,12 +9,13 @@ keybind = global:cmd+shift+alt+ctrl+space=toggle_quick_terminal
 clipboard-read = allow
 clipboard-write = allow
 
-theme = Red Alert 
-# background-opacity = 0.97
-# background-blur = 40
+theme = Andromeda
+background-opacity = 0.87
+background-blur = 30
 cursor-color = #65f859
 
-font-size=13.5
+font-family = BlexMono Nerd Font Mono
+font-size=14
 
 window-inherit-working-directory = true
 window-padding-balance = true

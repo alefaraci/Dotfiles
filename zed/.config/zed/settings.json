@@ -74,10 +74,8 @@
     "inactive_opacity": 0.9,
   },
   "colorize_brackets": true,
-  "ui_font_size": 13.0,
-  "buffer_font_size": 13.0,
-  "ui_font_family": "SF Pro Text",
-  "buffer_font_family": "SF Mono",
+  "ui_font_size": 14.0,
+  "buffer_font_size": 14.0,
   "buffer_line_height": { "custom": 1.4 },
   "indent_guides": { "enabled": true, "coloring": "indent_aware" },
   "scrollbar": {
@@ -200,9 +198,9 @@
 
   // Terminal
   "terminal": {
-    "font_family": "JetBrainsMono Nerd Font",
+    "font_family": "BlexMono Nerd Font Mono",
     "font_weight": 400,
-    "font_size": 13.0,
+    "font_size": 14.0,
     "line_height": "standard",
     "blinking": "on",
     "dock": "bottom",
