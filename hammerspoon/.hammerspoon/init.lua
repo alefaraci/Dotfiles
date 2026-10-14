@@ -62,8 +62,7 @@ hs.hotkey.bind(hyper, "w", function() openApp("/System/Applications/Messages.app
 hs.hotkey.bind(hyper, "p", function() openApp("/System/Applications/Reminders.app") end)
 hs.hotkey.bind(hyper, "k", function() openApp("/Applications/Obsidian.app") end)
 hs.hotkey.bind(hyper, "r", function() openApp("/Applications/reMarkable.app") end)
-
--- hs.hotkey.bind(hyper, "k", function() openApp("/Applications/MarkEdit.app") end)
+hs.hotkey.bind(hyper, "k", function() openApp("/Applications/Skim.app") end)
 -- hs.hotkey.bind(hyper, "b", function() openApp("/Applications/TeX/Bibdesk.app") end)
 -- hs.hotkey.bind(hyper, "n", function() openApp("/Applications/Numbers.app") end)
 -- hs.hotkey.bind(hyper, "x", function() openApp("/Applications/Texifier.app") end)
