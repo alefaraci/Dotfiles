@@ -6,9 +6,6 @@ brew "fastfetch"
 brew "ffmpeg"
 brew "fish"
 brew "fzf"
-brew "gemini-cli"
-brew "go"
-brew "hugo"
 brew "mactop"
 brew "neovim"
 brew "python@3.14"
@@ -16,7 +13,6 @@ brew "ruff"
 brew "tectonic"
 brew "uv"
 brew "wget"
-brew "container"
 brew "mas"
 brew "stow"
 brew "texlab"
@@ -39,19 +35,15 @@ cask "ghostty"
 cask "github"
 cask "hammerspoon"
 cask "karabiner-elements"
-cask "kindle-previewer"
 cask "mactex"
 cask "markedit"
 cask "onyx"
 cask "rectangle-pro"
-cask "sf-symbols"
 cask "skim"
 cask "texifier"
 cask "homebrew/cask/transmission"
 cask "zed"
 cask "syncthing-app"
-cask "lm-studio"
-cask "monitorcontrol"
 
 # Fonts
 cask "font-jetbrains-mono-nerd-font"
@@ -61,9 +53,7 @@ cask "font-hubot-sans"
 # Mac App Store
 mas "Actions", id: 1586435171
 mas "Amphetamine", id: 937984704
-mas "Anycode", id: 1602100698
 mas "Color Picker", id: 1545870783
-mas "Developer", id: 640199958
 mas "Finer", id: 6738301953
 mas "UnTrap for YouTube", id: 1637438059
 mas "Ghostery Privacy Ad Blocker", id: 6504861501
@@ -74,7 +64,6 @@ mas "Surfshark", id: 1437809329
 mas "Telegram", id: 747648890
 mas "uBlock Origin Lite", id: 6745342698
 mas "WhatsApp", id: 310633997
-mas "Xcode", id: 497799835
 mas "Userscripts", id: 1463298887
 mas "SponsorBlock for Safari", id: 1573461917
 
@@ -84,10 +73,13 @@ hostname = `hostname -s`.strip
 # Additional packages
 case hostname
 when "iMac"
-  cask "openemu"
+  #
 when "MacBook"
   cask "keyboardcleantool"
   cask "coconutbattery"
   cask "tailscale-app"
+  cask "kindle-previewer"
+  cask "monitorcontrol"
   mas "AdGuard Mini", id: 1440147259
+  mas "Xcode", id: 497799835
 end
