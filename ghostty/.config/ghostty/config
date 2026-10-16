@@ -26,3 +26,5 @@ window-width = 120
 
 quick-terminal-position = center
 quick-terminal-size = 60%,70%
+
+quit-after-last-window-closed = true
