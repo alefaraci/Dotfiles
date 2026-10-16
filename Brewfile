@@ -44,6 +44,7 @@ cask "texifier"
 cask "homebrew/cask/transmission"
 cask "zed"
 cask "syncthing-app"
+cask "markdown-preview"
 
 # Fonts
 cask "font-jetbrains-mono-nerd-font"
