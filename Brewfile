@@ -26,7 +26,7 @@ brew "imagemagick"
 # Casks
 cask "affinity"
 cask "bibdesk"
-cask "brave-browser"
+# cask "brave-browser"
 cask "calibre"
 cask "claude"
 cask "claude-code"
