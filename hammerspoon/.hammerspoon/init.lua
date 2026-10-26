@@ -2,14 +2,30 @@
 
 ---@diagnostic disable: undefined-global
 
--- Open or activate Finder
+-- -- Open or activate Finder Home directory
+-- local function openOrActivateFinder()
+--     local appleScript = [[
+--         tell application "Finder"
+--             if windows is not {} then
+--                 activate
+--             else
+--                 open home
+--                 activate
+--             end if
+--         end tell
+--     ]]
+--     hs.osascript.applescript(appleScript)
+--     -- hs.alert.show("Finder", 0.25)
+-- end
+
+-- Open or activate Finder to a specific folder
 local function openOrActivateFinder()
     local appleScript = [[
         tell application "Finder"
             if windows is not {} then
                 activate
             else
-                open home
+                open (POSIX file "/Users/alessiofaraci/Library/Mobile Documents/com~apple~CloudDocs/Brain")
                 activate
             end if
         end tell
