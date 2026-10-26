@@ -47,6 +47,7 @@ cask "zed"
 cask "syncthing-app"
 cask "tailscale-app"
 cask "markdown-preview"
+cask "openinterminal"
 
 # Fonts
 cask "font-jetbrains-mono-nerd-font"
