@@ -54,6 +54,7 @@ cask "tailscale-app"
 cask "markdown-preview"
 cask "openinterminal"
 cask "abue-ammar/tinycast/tinycast"
+cask "monitorcontrol"
 
 # Fonts
 cask "font-jetbrains-mono-nerd-font"
@@ -88,7 +89,6 @@ when "MacBook"
   cask "keyboardcleantool"
   cask "coconutbattery"
   cask "kindle-previewer"
-  cask "monitorcontrol"
   mas "AdGuard Mini", id: 1440147259
   mas "Xcode", id: 497799835
 end
