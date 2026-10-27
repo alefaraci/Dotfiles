@@ -1,5 +1,8 @@
 # Common to iMac and MacBook
 
+# Tap
+tap "abue-ammar/tinycast"
+
 # Formulae
 brew "eza"
 brew "fastfetch"
@@ -50,6 +53,7 @@ cask "syncthing-app"
 cask "tailscale-app"
 cask "markdown-preview"
 cask "openinterminal"
+cask "abue-ammar/tinycast/tinycast"
 
 # Fonts
 cask "font-jetbrains-mono-nerd-font"
