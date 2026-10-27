@@ -1,6 +1,6 @@
 {
   "general": {
-    "launcherShortcut": "option+space",
+    "launcherShortcut": "cmd+space",
     "showInMenuBar": true,
     "automaticallyCheckForUpdates": true,
     "popToRootSeconds": 0,
