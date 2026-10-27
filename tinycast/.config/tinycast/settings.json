@@ -1,0 +1,392 @@
+{
+  "general": {
+    "launcherShortcut": "option+space",
+    "showInMenuBar": true,
+    "automaticallyCheckForUpdates": true,
+    "popToRootSeconds": 0,
+    "escapeKeyBehavior": "navigateBackOrClose",
+    "autoSwitchInputSource": null,
+    "supportReminders": true,
+    "language": "en"
+  },
+  "appearance": {
+    "theme": "system",
+    "interfaceSize": "standard",
+    "compactMode": true,
+    "showFavoritesInCompactMode": true,
+    "followCursorAcrossDisplays": true,
+    "dragToReposition": false
+  },
+  "hyperKey": {
+    "key": "none",
+    "includesShift": true,
+    "quickPress": "none",
+    "secureInputCompatibility": false
+  },
+  "calculator": {
+    "numberStyle": "english"
+  },
+  "search": {
+    "showsSuggestions": true,
+    "sensitivity": "medium"
+  },
+  "applications": {
+    "enabled": true,
+    "searchScopes": [
+      "/Applications",
+      "/Applications/Utilities",
+      "/System/Applications",
+      "/System/Applications/Utilities",
+      "/System/Library/CoreServices/Applications",
+      "/System/Volumes/Preboot/Cryptexes/App/System/Applications",
+      "/System/Library/CoreServices/Finder.app",
+      "~/Applications",
+      "~/Library/Mobile Documents/com~apple~CloudDocs",
+      "~/Documents"
+    ],
+    "apps": {
+      "com.anthropic.claudefordesktop": {
+        "shortcut": null,
+        "alias": "cl",
+        "showInLauncher": true
+      },
+      "com.apple.AccessibilityInspector": {
+        "shortcut": null,
+        "alias": null,
+        "showInLauncher": false
+      },
+      "com.apple.Keynote": {
+        "shortcut": null,
+        "alias": "ke",
+        "showInLauncher": true
+      },
+      "com.apple.Maps": {
+        "shortcut": null,
+        "alias": "ma",
+        "showInLauncher": true
+      },
+      "com.apple.MobileSMS": {
+        "shortcut": null,
+        "alias": "me",
+        "showInLauncher": true
+      },
+      "com.apple.Music": {
+        "shortcut": null,
+        "alias": "mu",
+        "showInLauncher": true
+      },
+      "com.apple.Notes": {
+        "shortcut": null,
+        "alias": "no",
+        "showInLauncher": true
+      },
+      "com.apple.Numbers": {
+        "shortcut": null,
+        "alias": "nu",
+        "showInLauncher": true
+      },
+      "com.apple.Pages": {
+        "shortcut": null,
+        "alias": "pa",
+        "showInLauncher": true
+      },
+      "com.apple.Safari": {
+        "shortcut": null,
+        "alias": "sa",
+        "showInLauncher": true
+      },
+      "com.apple.dt.Xcode": {
+        "shortcut": null,
+        "alias": "xc",
+        "showInLauncher": true
+      },
+      "com.apple.finder": {
+        "shortcut": null,
+        "alias": "fi",
+        "showInLauncher": true
+      },
+      "com.apple.podcasts": {
+        "shortcut": null,
+        "alias": "po",
+        "showInLauncher": true
+      },
+      "com.apple.shortcuts.droplet.114DCCF5-547F-44EE-8598-4310AA2C8DC7": {
+        "shortcut": null,
+        "alias": "op",
+        "showInLauncher": true
+      },
+      "com.apple.shortcuts.droplet.E1DC9E8F-651B-4C22-AC13-BF12AFC477B5": {
+        "shortcut": null,
+        "alias": "br",
+        "showInLauncher": true
+      },
+      "com.canva.affinity": {
+        "shortcut": null,
+        "alias": "af",
+        "showInLauncher": true
+      },
+      "com.github.GitHubClient": {
+        "shortcut": null,
+        "alias": "gt",
+        "showInLauncher": true
+      },
+      "com.github.xor-gate.syncthing-macosx": {
+        "shortcut": null,
+        "alias": "sy",
+        "showInLauncher": true
+      },
+      "com.google.Chrome": {
+        "shortcut": null,
+        "alias": "ch",
+        "showInLauncher": true
+      },
+      "com.google.GeminiMacOS": {
+        "shortcut": null,
+        "alias": "ge",
+        "showInLauncher": true
+      },
+      "com.if.Amphetamine": {
+        "shortcut": null,
+        "alias": "am",
+        "showInLauncher": true
+      },
+      "com.mitchellh.ghostty": {
+        "shortcut": null,
+        "alias": "gh",
+        "showInLauncher": true
+      },
+      "com.surfshark.vpnclient.macos": {
+        "shortcut": null,
+        "alias": "su",
+        "showInLauncher": true
+      },
+      "com.titanium.OnyX": {
+        "shortcut": null,
+        "alias": "on",
+        "showInLauncher": true
+      },
+      "dev.zed.Zed": {
+        "shortcut": null,
+        "alias": "ze",
+        "showInLauncher": true
+      },
+      "doc.md-preview": {
+        "shortcut": null,
+        "alias": "mk",
+        "showInLauncher": true
+      },
+      "io.tailscale.ipn.macsys": {
+        "shortcut": null,
+        "alias": "ta",
+        "showInLauncher": true
+      },
+      "md.obsidian": {
+        "shortcut": null,
+        "alias": "ob",
+        "showInLauncher": true
+      },
+      "net.whatsapp.WhatsApp": {
+        "shortcut": null,
+        "alias": "wa",
+        "showInLauncher": true
+      },
+      "org.tempel.findanyfile": {
+        "shortcut": null,
+        "alias": "fin",
+        "showInLauncher": true
+      },
+      "ru.keepcoder.Telegram": {
+        "shortcut": null,
+        "alias": "te",
+        "showInLauncher": true
+      }
+    }
+  },
+  "systemSettings": {
+    "enabled": true,
+    "panes": {}
+  },
+  "systemActions": {
+    "enabled": true,
+    "actions": {}
+  },
+  "commands": {
+    "builtInEnabled": true,
+    "builtIn": {},
+    "enabled": true,
+    "showInLauncher": true
+  },
+  "quicklinks": {
+    "enabled": true,
+    "showInLauncher": true,
+    "opensNewWindow": false,
+    "passesSelectedText": false,
+    "confirmsBeforeDelete": true,
+    "commands": {}
+  },
+  "appleShortcuts": {
+    "enabled": true
+  },
+  "ai": {
+    "enabled": true,
+    "webSearch": true,
+    "choices": true,
+    "systemPrompt": "",
+    "systemPromptEnabled": true,
+    "retentionDays": "forever",
+    "opensTo": "recent",
+    "newChatAfterMinutes": 5,
+    "toolRounds": 10,
+    "commands": {}
+  },
+  "quickActions": {
+    "targetLanguage": "it",
+    "commands": {
+      "fix-grammar": {
+        "shortcut": "ctrl+option+shift+cmd+1",
+        "alias": null,
+        "showInLauncher": true
+      },
+      "rewrite": {
+        "shortcut": "ctrl+option+shift+cmd+2",
+        "alias": null,
+        "showInLauncher": true
+      },
+      "translate": {
+        "shortcut": "ctrl+option+shift+cmd+3",
+        "alias": null,
+        "showInLauncher": true
+      }
+    }
+  },
+  "dictation": {
+    "mode": "toggle",
+    "shortcut": null,
+    "model": "redux",
+    "microphone": null,
+    "destination": "paste",
+    "adaptsCapitalization": true,
+    "liveInsertion": false,
+    "releaseAfterMinutes": 1,
+    "language": null
+  },
+  "fileSearch": {
+    "enabled": true,
+    "scopes": [
+      "~",
+      "~/Library/Mobile Documents/com~apple~CloudDocs",
+      "/Volumes/Rugged SSD"
+    ],
+    "ignorePatterns": [],
+    "removedDefaultPatterns": [],
+    "showInLauncher": true,
+    "commands": {
+      "search-files": {
+        "shortcut": "option+f",
+        "alias": null,
+        "showInLauncher": true
+      }
+    }
+  },
+  "notes": {
+    "enabled": false,
+    "rendersMarkdown": true,
+    "showsFormattingBar": true,
+    "folder": null,
+    "commands": {}
+  },
+  "snippets": {
+    "showInLauncher": true,
+    "folder": null,
+    "commands": {}
+  },
+  "navigation": {
+    "enabled": false,
+    "menuSearchShowsAppleMenu": false,
+    "menuSearchDisabledApps": [],
+    "commands": {}
+  },
+  "windowManagement": {
+    "enabled": false,
+    "showInLauncher": true,
+    "gap": 0,
+    "cycle": "off",
+    "layoutsShowInLauncher": true,
+    "roomsShowInLauncher": true,
+    "shortcuts": {
+      "left-half": null,
+      "right-half": null,
+      "top-half": null,
+      "bottom-half": null,
+      "top-left-quarter": null,
+      "top-right-quarter": null,
+      "bottom-left-quarter": null,
+      "bottom-right-quarter": null,
+      "first-three-fourths": null,
+      "last-three-fourths": null,
+      "first-third": null,
+      "center-third": null,
+      "last-third": null,
+      "first-two-thirds": null,
+      "last-two-thirds": null,
+      "maximize": null,
+      "almost-maximize": null,
+      "reasonable-size": null,
+      "maximize-height": null,
+      "maximize-width": null,
+      "center": null,
+      "center-half": null,
+      "center-two-thirds": null,
+      "make-larger": null,
+      "make-smaller": null,
+      "restore": null,
+      "move-left": null,
+      "move-right": null,
+      "move-up": null,
+      "move-down": null,
+      "next-display": null,
+      "previous-display": null,
+      "toggle-fullscreen": null,
+      "previous-space": null,
+      "next-space": null
+    },
+    "aliases": {},
+    "customSizes": [],
+    "layouts": [],
+    "rooms": [],
+    "commands": {}
+  },
+  "clipboard": {
+    "enabled": true,
+    "retentionDays": 90,
+    "defaultAction": "paste",
+    "disabledApps": [
+      "com.apple.keychainaccess",
+      "com.apple.Passwords"
+    ],
+    "commands": {}
+  },
+  "emoji": {
+    "skinTone": "none",
+    "gridColumns": 10,
+    "commands": {}
+  },
+  "calendar": {
+    "showInLauncher": true,
+    "launcherLimit": 5,
+    "span": "todayAndTomorrow",
+    "joinWindowMinutes": 5,
+    "autoJoinConfirms": true,
+    "autoJoinNamedProvidersOnly": false,
+    "meetingBrowser": null,
+    "menuBar": "disabled",
+    "menuBarUpcomingEvents": "today",
+    "menuBarLinkedEventsOnly": true,
+    "menuBarHidesWhenEmpty": false,
+    "hideCurrentEventAfterMinutes": "never",
+    "commands": {}
+  },
+  "extensions": {
+    "showInLauncher": true
+  }
+}
