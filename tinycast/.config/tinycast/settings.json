@@ -208,7 +208,13 @@
   },
   "systemActions": {
     "enabled": true,
-    "actions": {}
+    "actions": {
+      "lock-screen": {
+        "shortcut": null,
+        "alias": "lk",
+        "showInLauncher": true
+      }
+    }
   },
   "commands": {
     "builtInEnabled": true,
