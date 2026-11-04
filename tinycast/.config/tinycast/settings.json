@@ -120,6 +120,11 @@
         "alias": "br",
         "showInLauncher": true
       },
+      "com.brave.Browser": {
+        "shortcut": null,
+        "alias": "bra",
+        "showInLauncher": true
+      },
       "com.canva.affinity": {
         "shortcut": null,
         "alias": "af",
