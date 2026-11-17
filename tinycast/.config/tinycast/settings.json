@@ -255,7 +255,13 @@
     "opensTo": "recent",
     "newChatAfterMinutes": 5,
     "toolRounds": 10,
-    "commands": {}
+    "commands": {
+      "ai-chat": {
+        "shortcut": "option+a",
+        "alias": null,
+        "showInLauncher": true
+      }
+    }
   },
   "quickActions": {
     "targetLanguage": "it",
@@ -318,6 +324,7 @@
   "snippets": {
     "showInLauncher": true,
     "folder": null,
+    "defaultAction": "paste",
     "commands": {}
   },
   "navigation": {
