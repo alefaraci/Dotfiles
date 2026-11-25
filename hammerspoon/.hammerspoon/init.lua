@@ -18,13 +18,13 @@ local function openOrActivateFinder()
     hs.osascript.applescript(appleScript)
 end
 
--- Open folder path in Rex Beta from Finder
-local function openInRexBeta()
+-- Open folder path in Rex  from Finder
+local function openInRex()
     local appleScript = [[
         tell application "Finder"
             set currentFolder to (target of front window) as alias
         end tell
-        tell application "/Applications/Rex Beta.app"
+        tell application "/Applications/Rex.app"
             open currentFolder
             activate
         end tell
@@ -69,7 +69,7 @@ hs.hotkey.bind(hyper, "\\", function() hs.reload() end)
 -- Open Finder
 hs.hotkey.bind(hyper, "f", openOrActivateFinder)
 -- Open directory in Rex
-hs.hotkey.bind({ 'cmd', 'alt', 'ctrl' }, "r", openInRexBeta)
+hs.hotkey.bind({ 'cmd', 'alt', 'ctrl' }, "r", openInRex)
 -- Open directory in Zed
 hs.hotkey.bind({ 'cmd', 'alt', 'ctrl' }, "z", openInZed)
 -- Switch Appearance
@@ -84,7 +84,7 @@ hs.hotkey.bind(hyper, "m", function() openApp("/System/Applications/Music.app") 
 hs.hotkey.bind(hyper, "o", function() openApp("/Applications/Claude.app") end)
 hs.hotkey.bind(hyper, "s", function() openApp("/Applications/Safari.app") end)
 hs.hotkey.bind(hyper, "t", function() openApp("/Applications/Telegram.app") end)
-hs.hotkey.bind(hyper, "r", function() openApp("/Applications/Rex Beta.app") end)
+hs.hotkey.bind(hyper, "r", function() openApp("/Applications/Rex.app") end)
 hs.hotkey.bind(hyper, "x", function() openApp("/Applications/Xcode.app") end)
 hs.hotkey.bind(hyper, "n", function() openApp("/System/Applications/Notes.app") end)
 hs.hotkey.bind(hyper, "a", function() openApp("/System/Applications/Preview.app") end)
